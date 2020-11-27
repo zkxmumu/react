@@ -1,0 +1,383 @@
+*{
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    text-decoration:none;
+    font-size: .4rem;
+}
+
+.appcss .active{
+    color:  #fc0606;
+    border-bottom: 2px solid #fc0606;
+}
+.appcss .top{
+    position: relative;
+    width: 100%;
+    height: 1.8rem;
+    background: #d43c33;
+    
+}
+.appcss .top img{
+    position: absolute;
+    left: 20px;
+    top: 25px;
+}
+.appcss .top span{
+    position: absolute;
+    right: 20px;
+    top: 30px;
+    display: inline-block;
+    height: 36px;
+    line-height: 36px;
+    font-size: 16px;
+    width: 100px;
+    text-align: center;
+    color: #d43c33;
+    background-color: #fff;
+    border-radius: 37.5%/100%;
+}
+
+.appcss .navbar{
+    height: .8rem;
+    line-height: .8rem;
+    border-bottom: 1px solid #ccc;
+    /* padding-left: 1rem; */
+    text-align: center;
+    display: flex;
+    background: #fff;
+}
+.appcss .navbar a{
+    flex: 1;
+    color: #333;
+    font-size: .35rem;
+}
+
+
+/* 首页 */
+/* 轮播图 */
+
+.swiper-container {
+    width: 100%;
+    height: 100%;
+}
+.swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    background: #fff;
+
+    /* Center slide text vertically */
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    -webkit-justify-content: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    -webkit-align-items: center;
+    align-items: center;
+}
+.bannerimg{
+    width: 100%;
+    height: 2rem;
+}
+
+
+
+.homecss .listsong{
+    position: relative;
+    padding-left: 9px;
+    margin-bottom: 14px;
+    font-size: 17px;
+    height: 20px; 
+    line-height: 20px;
+    padding-top: 20px;
+    font-size: .4rem;
+    color: rgb(87, 86, 86);
+  
+}
+.homecss .listsong::after{
+    content: " ";
+    position: absolute;
+    left: 0;
+    top: 65%;
+    margin-top: -9px;
+    width: 2px;
+    height: .4rem;
+    /* font-size: .4rem; */
+    background-color: #d33a31;
+}
+.homecss .ul1 {
+    width:100% ;
+    /* display: flex; */
+    /* padding-top: .3rem; */
+}
+.homecss .ul1 li{
+    position: relative;
+    width: 2.2rem;
+    margin-right: .2rem;
+    margin-bottom: .2rem;
+    /* flex: 1; */
+    float: left;
+    text-align: center;
+}
+.homecss .ul1 li img{
+    width: 2.3rem;
+}
+.homecss .ul1 li p{
+    font-size: .3rem;
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    padding: 7px 2px 0 8px;
+    min-height: 30px;
+    line-height: 1.2;
+    font-size: 13px;
+    
+}
+
+.homecss .ul1 li .playcount{
+    position: absolute;
+    right: 0;
+    top: 0;
+    color: #fff;
+} 
+.homecss .listsongbot{
+    position: relative;
+    padding-left: 9px;
+    margin-bottom: 14px;
+    font-size: 17px;
+    height: 20px; 
+    line-height: 20px;
+    padding-top: 20px;
+    font-size: .4rem;
+    margin-top: 20px;
+    color: rgb(87, 86, 86);
+  
+}
+.homecss .listsongbot::before{
+    content: " ";
+    position: absolute;
+    left: 0;
+    top: 7rem;
+    margin-top: -9px;
+    width: 2px;
+    height: .4rem;
+    /* font-size: .4rem; */
+    background-color: #d33a31;
+}
+
+.homecss .ull li{
+    position: relative;
+    margin-left: .2rem;
+    border-bottom: 1px solid #999;
+    margin-right: .2rem;
+    margin-bottom: 10px;
+}
+.homecss .ull .tit{
+    font-size: .3rem;
+    /* display: inline-block; */
+    margin-bottom: 5px;
+  
+} 
+
+.homecss .ull .ic{
+    position: absolute;
+    left: 0;
+    bottom: 3px;
+    
+}
+.homecss .ull .img{
+    position: absolute;
+    right: 0;
+    top: 10px;
+    
+}
+.homecss .ull span{
+    margin-left: 20px;
+    font-size: .25rem !important;
+}
+/* 底部 */
+.homecss .last{
+    /* position: relative; */
+    width: 100%;
+    height: 6rem;
+    background:url('../img/bj.jpg') ;
+    text-align: center;
+}
+.homecss .last img{
+    margin-top: 50px;
+}
+.homecss .last .openapp{
+    line-height: 38px;
+    border: 1px solid #d33a31;
+    border-radius: 38px;
+    font-size: 16px;
+    color: #d33a31;
+    margin:15px 15px 37px 5px;
+}
+.homecss .last .banquan{
+    color: #888;
+    font-size: 20px;
+    line-height: 24px;
+    -webkit-transform: scale(.75);
+    -ms-transform: scale(.75);
+    transform: scale(.75);
+}
+
+
+/* rank排行榜 */
+.rankindex{
+    color: red;
+    display: inline-block;
+}
+.rankindexp{
+    color: #333;
+    display: inline-block;
+}
+.rankcss .back{
+    height: 3rem;
+    background: url("../img/2.jpg")  rgba(0,0,0,.2) 100% no-repeat;
+    background-size: 459px;
+    background-color:  rgba(0,0,0,.2);
+   
+}
+.rankcss .back .imgcss{
+    margin-left: 20px;
+    margin-top: 30px;
+}
+.rankcss .back p{
+    font-size: .3rem;
+    margin-left: 20px;
+}
+.rankcss .ull li{
+    position: relative;
+    margin-left: .2rem;
+    border-bottom: 1px solid #999;
+    margin-right: .2rem;
+    margin-top: 20px;
+}
+.rankcss .ull .tit{
+    font-size: .3rem;
+    display: inline-block;
+    margin-bottom: 10px;
+    margin-left: 10px;
+} 
+.rankcss .ull .titlename{
+    margin-left: 60px;
+    font-size: .25rem;
+}
+.rankcss .ull img{
+    position: absolute;
+    right: 0;
+    top: 10px;
+    
+}
+.rankcss .ull li .iconsq{
+    position: absolute;
+    left: 37px;
+    top: 41px;
+}
+.rankcss span{
+    display: inline-block;
+    color: #999;
+    padding-right: 14px;
+    background-size: 7px 12px;
+    font-size: .3rem;
+    margin-left: 2.8rem;
+    margin-top: .3rem;
+}
+.rankcss .kong{
+    height: 2rem;
+}
+
+
+.searchcss .inputcss{
+    position: relative;
+    width: 90%;
+    height: 30px;
+    line-height: 18px;
+    background: rgba(0,0,0,0);
+    font-size: 14px;
+    color: #333;
+    background: rgb(231, 231, 231);
+    margin-left: 20px;
+    margin-bottom: 20px;
+    margin-top: 15px;
+    border-radius: 50px;
+    padding-left:40px ;
+}
+.searchcss .icon{
+    position: absolute;
+    left: 23px;
+    margin: 18px 7px;
+    vertical-align: middle;
+    width: 20px;
+    height: 20px;
+    background-image: url("../img/search.png") ;
+    z-index: 100;
+}
+.searchcss .searchtop{
+    border-bottom:1px solid rgb(238, 238, 238);
+}
+.searchcss .searchbottom {
+    padding: 15px 10px 0;
+}
+.searchcss .searchbottom .title{
+    font-size: 12px;
+    line-height: 12px;
+    color: #666;
+}
+.searchcss .searchbottom .list{
+    margin: 10px 0 7px;
+}
+.searchcss .searchbottom .list{
+    width: 6rem;
+}
+.searchcss .searchbottom .list .item{
+    display: inline-block;
+    height: 32px;
+    margin-right: 8px;
+    margin-bottom: 8px;
+    padding: 0 14px;
+    font-size: 14px;
+    line-height: 32px;
+    color: #333;
+    border: 1px solid #ccc;
+    border-color: #d3d4da;
+    border-radius: 32px;
+}
+.searchcss .searchbottom .list .item .link{
+    color: #333;
+    font-size: 15px;
+}
+.searchcss .lastsearch{
+    height: 4rem;
+    background: rgb(233, 233, 233);
+}
+
+.searchcss .lastsearch .icon1{
+    position: absolute;
+    left: 7px;
+    /* top: -1px; */
+    margin: 11px 7px;
+    vertical-align: middle;
+    width: 20px;
+    height: 20px;
+    background-image: url("../img/search.png") ;
+    z-index: 100;
+}
+.searchcss .lastsearch .searchul{
+    margin-left: 45px;
+    
+}
+.searchcss .lastsearch .searchul li a{
+    line-height: 2;
+    font-size: 20px;
+}
+.show{
+    display: none;
+}

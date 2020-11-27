@@ -1,0 +1,16 @@
+{
+	"Print to console": {
+	"prefix": "reactCom",
+	"body": [
+	"import React from 'react'",
+	" class Home extends React.Component{",
+	" render(){",
+	"return (<div>\n",
+	"</div>)",
+	"}",
+	"}",
+	" export default Home",
+	],
+	"description": "create a new React Template"
+	}
+	}
